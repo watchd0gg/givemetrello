@@ -1,8 +1,4 @@
-# givemetrello developed by watchdogg
-# you can see the guide around this tool at my blog medium.com/@watchdogg
-
-
-Dependency required:
+# Dependency required:
 python -m pip install google
 
 HELP:
