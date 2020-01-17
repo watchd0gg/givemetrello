@@ -21,7 +21,7 @@ if args.typeof_credential:
         	query = 'intext:SSH AND intext:password'
 
 if args.company:
-        query = query + ' AND intext:' + args.company
+        query = query + ' AND intext:%s OR intitle:%s' % (args.company, args.company)
 
 for i in search(query, lang = 'en', num=10, start=0, stop=args.limit, pause=float(args.sleep_time),domains=['trello.com']):
 	results.append(i)
