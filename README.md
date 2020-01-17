@@ -1,7 +1,10 @@
-# Dependency required:
-python -m pip install google
+// givemetrello developed by watchdogg
+// you can see the guide around this tool at my blog medium.com/@watchdogg
 
-HELP:
+Dependency required:
+```python -m pip install google ```
+
+```HELP:
 usage: givemetrello.py [-h] -l  -s  [-C] [-T]
 
 Trello Credentials Scraper
@@ -14,3 +17,4 @@ Trello Credentials Scraper
                         OPTIONAL: Search for a specific credential, it might
                         be FTP, SSH or GMAIL accounts (DEFAULT IS FOR GMAIL)
                         ej: -T SSH or -T FTP
+```
